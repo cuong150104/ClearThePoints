@@ -1,0 +1,46 @@
+
+.text-container{
+  margin-left: 382px;
+}
+
+.btn{
+  width: 80px;
+  height: 25px;
+}
+
+.input-points{
+  margin-left: 30px;
+}
+.game-board {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  transition: background-color 1s ease; 
+  background-color: white; 
+}
+
+.button-container {
+  margin: 20px auto;
+}
+
+.p-time{
+  font-size: 1rem; 
+  color: #333;  
+  margin-left: 40px;     
+}
